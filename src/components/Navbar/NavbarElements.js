@@ -3,7 +3,7 @@ import { Link as LinkR} from 'react-router-dom';
 
 export const Nav = styled.nav`
 background-color: #000;
-height: 80px;
+height: 80px;styled components to na
 display:flex;
 justify-content:center;
 font-size: 1rem;
@@ -26,13 +26,16 @@ padding: 0 24px;
 max-width: 1100px;
 `
 export const NavLogo = styled(LinkR)`
-color:red;
+color:white;
 justify-self:Flex-start;
 cursor:pointer;
-font-size: 1.5rem;
+font-family: 'Red Hat Display', sans-serif;
+font-size: 2rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
 font-weight:bold;
 text-decoration:none;
+text-transform:uppercase;
+letter-spacing:0.5em;
 `
